@@ -4,13 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SISPet - Contatos
-    </title>
+    <title>Contato - SISPet</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1></h1>
-
-
-
+    <h1>Fale Conosco</h1>
+    <p>Para entrar em contato com a empresa, nos ligue ou envie seu contato pelo formulário abaixo.</p>
+    <form action="">
+        <h2>Contato</h2>
+        <p class = "texto">Nome: Rosânegla Barbosa</p>
+        <p class = "texto">Endereço de e-mail: sispet@contoso.com.br</p>
+        <p class = "texto">Número: +55 (92) 4002-8922</p>
+        <p class = "texto">Localização: Avenida joaquim Nabuco 1625 - Bairro: Centro</p>
+        <h2>Formulário para contato</h2>
+        <div>
+            <p>
+                <input type="text" placeholder="Digite seu nome" id= "btNome">
+                <input type="email" name="e-mail" placeholder="digite seu e-mail" id="btEmail">
+                <p></p>
+                Telefone: <input type="text" name="DDD" id="btDDD" placeholder="DDD" size="2" maxlength="2"> - <input type="text" name="Numero" id ="btNumero" placeholder="Número" size="9" maxlength="9">
+                <h3>Assunto</h3>
+                <input type="text" class="resizedTextbox" id="btCaixatxt" placeholder="Deixe aqui sua menssagem"/>
+                
+             </p>
+             <p>
+                <input type="button" value="Cadastrar" id="btCad">
+             </p>
+             
+        </div>
+    </form>
+    <script src="js/javascript.js"></script>
 </body>
 </html>

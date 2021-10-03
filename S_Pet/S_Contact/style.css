@@ -1,0 +1,24 @@
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(228, 228, 228);
+}
+title{
+    font-family: fantasy;
+    background-color: rgb(176, 80, 255);
+}
+
+.texto{
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 12px;
+}
+.resizedTextbox{
+    box-sizing: content-box;
+    height:200px;
+    font-size:14pt;
+}
