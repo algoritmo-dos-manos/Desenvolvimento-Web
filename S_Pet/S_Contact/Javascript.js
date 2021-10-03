@@ -1,43 +1,26 @@
-javascript:
-var nome = null
-var email = null
-var numero = 0
-var texto = undefined
-//var data = new Data()
+let formulário = [];
+// example {id:1592304983049, title: 'Deadpool', year: 2015}
+const addContact = (ev)=>{
+    ev.envio();  //para impedir o envio do formulário errado
+    let contact = {
+        id: Date.now(),
+        btNome: document.getElementById('btNome').value,
+        btEmail: document.getElementById('btEmail').value,
+        btDDD: document.getElementById('btDDD').value,
+        btNumero: document.getElementById('btNumero').value,
+        btCaixatxt: document.getElementById('btCaixatxt').value
+    }
+    form.push(contact);
+    document.forms[0].reset(); // limpa o formulário
 
-//var texto_data = document.getElementById("data")
-//texto_data.textContent = data.getDate()+ '/' + (data.getMonth()+1)+ '/' + data.getFullYear()
-var area = document.getElementById("area")
-// referencia aos elementos botões
-var btnome = document.getElementById("btNome")
-var btEmail = document.getElementById("btEmail")
-var btCad = document.getElementById("btCad")
+    //for display purposes only
+    console.warn('added' , {formulário} );
+    let pre = document.querySelector('#msg pre');
+    pre.textContent = '\n' + JSON.stringify(movies, '\t', 2);
 
-btnome.onclick = lerNome
-btEmail.onclick = lerEmail
-btCad.onclick = cadastrar
-
-function lerNome(){
-    nome = prompt("Digite seu nome")
+    //saving to localStorage
+    localStorage.setItem('MyMovieList', JSON.stringify(movies) );
 }
-
-function lerEmail(){
-    email = prompt("Digite seu e-mail")
-}
-
-function cadastrar(){
-    texto = "Usuario numero" + (++numero) + "\n";
-    texto += "Nome:" + nome + "\n";
-    texto += "Email" + email + "\n\n";
-    area.value += texto; 
-}
-
-const elemento = document.querySelector("h2")
-elemento.onclick=function(){
-    document.body.style.backgroundColor = "red"
-}
-
-elemento.ondblclick = function (){
-    // elemento.classList.remove("ativo")
-    elemento.classList.toggle("ativo")
-}
+document.addEventListener('DOMContentLoaded', ()=>{
+    document.getElementById('btn').addEventListener('click', addMovie);
+});
