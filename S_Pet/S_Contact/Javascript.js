@@ -16,11 +16,11 @@ const addContact = (ev)=>{
     //for display purposes only
     console.warn('added' , {formulário} );
     let pre = document.querySelector('#msg pre');
-    pre.textContent = '\n' + JSON.stringify(movies, '\t', 2);
+    pre.textContent = '\n' + JSON.stringify(formulário, '\t', 2);
 
     //saving to localStorage
-    localStorage.setItem('MyMovieList', JSON.stringify(movies) );
+    localStorage.setItem('Cadastro_user', JSON.stringify(formulário) );
 }
 document.addEventListener('DOMContentLoaded', ()=>{
-    document.getElementById('btn').addEventListener('click', addMovie);
+    document.getElementById('btCad').addEventListener('click', addContact);
 });

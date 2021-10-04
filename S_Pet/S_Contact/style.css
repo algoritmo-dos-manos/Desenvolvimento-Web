@@ -18,14 +18,20 @@ title{
     font-size: 16px;
 }
 .resizedTextbox{
-    box-sizing: content-box;
-    height: 150px;
-    width: 400px;
+    text-align: start;
+    height: auto;
+    width: auto;
     font-size:12pt;
+    
 }
 h4{
 background-color: black;
 font-size: 1px;
+}
+
+label{
+  font-family: sans-serif;
+  font-size: 15px;
 }
 
 body {
