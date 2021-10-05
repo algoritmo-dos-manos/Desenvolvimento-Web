@@ -6,9 +6,9 @@ body {
 .div-principal{
   overflow: hidden;
   background-color: #333;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
 
 }
 
@@ -135,12 +135,19 @@ body {
     width: 80%;
     margin: 0 auto;
     padding: 20px 30px;
-    min-height: 300px;
+    min-height: 200px;
 }
 
 .box img {
-    height: 45px;
-    margin-bottom: 20px;
+    width: 150px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    margin-top: auto;
+    margin-bottom: auto;
+
+    
 }
 
 .box h3 {
@@ -172,6 +179,10 @@ body {
     padding-bottom: 30px;
 }
 
+#A001{
+    margin-top: 50%;
+    text-align: justify;
+}
 #div-4 p {
     font-size: 12px;
     color: #314584;
