@@ -8,7 +8,7 @@ pelo parceiro, ficando a escolha a critério do cliente na hora da compra. Para 
 gerar retorno ao empreendimento.
 
 Requisitos Mínimos:
-HTML 5/CSS 3/Javascript 
+HTML 5/CSS 3/Javascript
 Chrome/Firefox/Edge
 Versão Desktop
 
