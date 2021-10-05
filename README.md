@@ -8,14 +8,14 @@ pelo parceiro, ficando a escolha a critério do cliente na hora da compra. Para 
 gerar retorno ao empreendimento.
 
 Requisitos Mínimos:
-HTML 5/CSS 3/Javascritpt
+HTML 5/CSS 3/Javascript 
 Chrome/Firefox/Edge
 Versão Desktop
 
-Inspirações de Funcionalidades e Telas:
+Inspirações de Funcionalidades e Telas: as inspirações de funcionalidades foram oriundas das aulas em laboratório praticadas com o professor e de design e algumas outras funcionalidades foram utilizadas como referências o site da Bemol Digital e do instituto Sidia.
 
 
-Descrição das Funcionalidades do Projeto:
+Descrição das Funcionalidades do Projeto: a primeira funcionalidade dele é estabelecer uma apresentação e conexão dos sócios para com os stakeholders e clientes. A segunda funcionalidade consiste em submeter um formulário para cadastro afim de obter mais informações sobre o empreendimento.
 
 
 Contato:
