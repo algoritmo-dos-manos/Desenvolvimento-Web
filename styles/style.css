@@ -1,6 +1,6 @@
 body {
     font-family: 'Work Sans';
-    background: url("./images/Bground01.jpg");
+    background: url("../images/Bground01.jpg");
 
 }
 .div-principal{
@@ -114,7 +114,7 @@ body {
 }
 
 #div-principal {
-    background-image: url(./background01.png);
+    background-image: url(../images/background01.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
@@ -189,7 +189,7 @@ body {
 }
 
 #div-secundaria {
-    background-image: url(./background02.png);
+    background-image: url(../images/background02.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left;
@@ -208,7 +208,7 @@ body {
 }
 
 #galeria {
-    background-image: url(./background03.png);
+    background-image: url(../images/background03.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left;
